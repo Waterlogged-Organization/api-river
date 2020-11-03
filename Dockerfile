@@ -8,4 +8,4 @@ RUN npm update && npm install
 
 CMD npm start
 
-EXPOSE 8080
+EXPOSE 8082
