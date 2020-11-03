@@ -1,0 +1,23 @@
+{
+  "name": "api-river",
+  "version": "1.0.0",
+  "description": "River API",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waterlogged-Organization/api-river.git"
+  },
+  "author": "Maxime Hutinet & Justin Foltz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waterlogged-Organization/api-river/issues"
+  },
+  "homepage": "https://github.com/Waterlogged-Organization/api-river#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,12 @@
+version: '3'
+networks:
+  api-river:
+
+services:
+  api:
+    build:
+      context: .
+    networks:
+      - api-river
+    ports:
+      - "8080:8080"
