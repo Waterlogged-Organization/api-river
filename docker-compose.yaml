@@ -6,6 +6,9 @@ services:
   api:
     build:
       context: .
+    volumes:
+      - '.:/server'
+      - '/server/node_modules'
     networks:
       - api-river
     ports:
